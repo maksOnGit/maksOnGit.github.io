@@ -25,7 +25,6 @@ hr:after {
 
 .home-content {
     font-family: 'Architects Daughter', cursive;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,28 +56,21 @@ hr:after {
         1px 2px 1px #fff,
         1px 3px 1px #11101d,
         1px 4px 1px #fff,
-        1px 5px 1px #11101d,
-        1px 6px 1px #fff,
-        1px 7px 1px #11101d,
-        1px 8px 1px #fff,
         1px 10px 4px #11101d,
         1px 18px 6px #11101d19,
         1px 22px 10px #11101d19,
         1px 25px 35px #11101d19,
         1px 30px 60px #11101d19;
-    box-shadow: inset 0px 0px 50px 5px #11101d;
-    border-radius: 85px;
-    background: #e0d3af;
+    box-shadow: inset 0px 0px 5px 10px #000b21;
+    border-radius: 100px;
+    background-color: #1f1a5e;
     transition: all 1s ease;
-    padding: 1ch;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.8) 0%, rgba(224, 211, 175, 1) 24%, rgba(187, 176, 136, 0.8) 47%, rgba(224, 211, 175, 1) 72%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .home-content .content-header h1 {
     text-transform: uppercase;
-    padding: 25px;
-    font-family: 'Architects Daughter', cursive;
+    padding-inline: 50px;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .home-content .info,
