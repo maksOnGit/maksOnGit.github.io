@@ -137,16 +137,16 @@ hr:after {
     font-size: 1rem;
 }
 
-.home-content .ID p a{
+.home-content .ID p a {
     color: #11101d;
     opacity: 0.8;
 }
 
-.home-content .ID p a:hover{
+.home-content .ID p a:hover {
     opacity: 1;
     color: #fff;
     text-decoration: none;
-    text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 0 #555, 0 6px 0 #444, 0 7px 0 #333, 0 8px 7px #000b21;    
+    text-shadow: 0 1px 0 #999, 0 2px 0 #888, 0 3px 0 #777, 0 4px 0 #666, 0 5px 0 #555, 0 6px 0 #444, 0 7px 0 #333, 0 8px 7px #000b21;
 }
 
 
@@ -250,12 +250,12 @@ hr:after {
     box-shadow: inset 0px 0px 5px 1px #1A1110;
     font-size: 1.4rem;
     padding-inline: 3px;
-    padding-bottom: 3px ;
+    padding-bottom: 3px;
     background-color: rgb(253, 253, 128);
-    
+
 }
 
-summary{
+summary {
     cursor: pointer;
 }
 
@@ -297,7 +297,7 @@ summary{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1A1110;
+    background-color: #1f1a5e;
     border-radius: 5px;
     width: 15rem;
     height: 20rem;
@@ -306,10 +306,10 @@ summary{
 
 .home-content .card-container .card {
     display: grid;
-    grid-template-rows: 30% 13.3% 13.3% 13.3% 30%;
+    grid-template-rows: 25% 16.6% 16.6% 16.6% 25%;
     height: 98%;
     width: 97%;
-    background-color: rgb(253, 253, 128);
+    background-color: #908ae9;
     box-shadow: 30px 30px 50px;
     border-radius: 5px;
 }
@@ -324,8 +324,15 @@ summary{
 
 .home-content .card-container .card .b div a:hover,
 .home-content .card-container .card .c div a:hover,
-.home-content .card-container .card .d div a:hover{
-    filter:  invert(0.6);
+.home-content .card-container .card .d div a:hover {
+    filter: invert(0.6);
+
+}
+
+.home-content .card-container .card .b:hover,
+.home-content .card-container .card .c:hover,
+.home-content .card-container .card .d:hover {
+    transform: translateY(-3px);
 }
 
 .home-content .card-container .card div a i {
@@ -371,18 +378,18 @@ summary{
 }
 
 .home-content .card-container .card .b {
-    background-color: #e0d3af;
+    background-color: rgb(253, 253, 128);
     box-shadow: 0px -1px 10px 0px #11101d;
 }
 
 .home-content .card-container .card .c {
-    background-color: #e0d3af;
+    background-color: rgb(253, 253, 128);
     box-shadow: 0px -1px 10px 0px #11101d;
 
 }
 
 .home-content .card-container .card .d {
-    background-color: #e0d3af;
+    background-color: rgb(253, 253, 128);
     box-shadow: 0px -1px 10px 0px #11101d;
 }
 
