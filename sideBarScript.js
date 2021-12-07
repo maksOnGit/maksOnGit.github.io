@@ -89,16 +89,16 @@ contactsBtn.onclick = function() {
 
 
 allBtn.onclick = function() {
-    contactsSection.classList.toggle("visible");
-    skillsSection.classList.toggle("visible");
-    infoSection.classList.toggle("visible");
-    xpSection.classList.toggle("visible");
+    contactsSection.classList.add("visible");
+    skillsSection.classList.add("visible");
+    infoSection.classList.add("visible");
+    xpSection.classList.add("visible");
 
     sidebar.classList.remove("active");
 
-    profileBtn.classList.toggle("clicked");
-    xpBtn.classList.toggle("clicked");
-    contactsBtn.classList.toggle("clicked");
-    allBtn.classList.toggle("clicked");
-    skillsBtn.classList.toggle("clicked");
+    profileBtn.classList.add("clicked");
+    xpBtn.classList.add("clicked");
+    contactsBtn.classList.add("clicked");
+    allBtn.classList.add("clicked");
+    skillsBtn.classList.add("clicked");
 }
