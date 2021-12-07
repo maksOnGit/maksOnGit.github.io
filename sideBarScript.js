@@ -1,4 +1,5 @@
 let btn = document.querySelector("#btn");
+let secondBtn = document.querySelector("#btnBis")
 let sidebar = document.querySelector(".sidebar");
 
 let profileBtn = document.querySelector(".btn-profile");
@@ -17,7 +18,9 @@ btn.onclick = function() {
     sidebar.classList.toggle("active");
 };
 
-
+secondBtn.onclick = function() {
+    sidebar.classList.toggle("active")
+}
 
 
 
