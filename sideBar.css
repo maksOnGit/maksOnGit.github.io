@@ -71,13 +71,14 @@ html{
 
 .sidebar #btn:hover, 
 .sidebar.active #btn:hover {
-    color: rgb(253, 253, 128);
-    filter: drop-shadow(0px 0px 5px rgb(253, 253, 128));
+    color: #fff;
+    filter: drop-shadow(0px 0px 5px #fff);
 }
 
 .sidebar.active #btnBis:hover{
-    background-color: rgb(250, 250, 0);
+    background-color:#fff;
     filter: brightness(150%);
+    cursor: pointer;
 }
 
 .sidebar ul{
