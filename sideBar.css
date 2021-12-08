@@ -164,7 +164,7 @@ html{
     background: #fff;
 }
 .sidebar.active ul li a{
-    margin-left: 15%;
+    margin-left: 5%;
     transition: all 0.8s ease;
 }
 

@@ -4,7 +4,9 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-bottom: 1px solid #11101d;
-    box-shadow: 0px 6px 5px -6px #11101d;
+    border-top: 1px solid #11101d;
+    box-shadow: 0px 6px 5px -6px #11101d,
+    0px -6px 5px -6px #11101d;
     text-transform: uppercase;
 }
 
@@ -14,6 +16,7 @@ hr {
     margin-bottom: 20px;
     border-radius: 20px;
     padding: 5px;
+    border: 1px solid rgb(253, 253, 128);
 }
 
 hr:after {
@@ -61,7 +64,8 @@ hr:after {
         1px 22px 10px #11101d19,
         1px 25px 35px #11101d19,
         1px 30px 60px #11101d19;
-    box-shadow: inset 0px 0px 2px 7px #fff;
+    box-shadow: inset 0px 0px 2px 7px rgb(253, 253, 128),
+    0px 0px 0px 2px #111;
     border-radius: 100px;
     background-color: #1f1a5e;
     transition: all 1s ease;
@@ -166,10 +170,7 @@ hr:after {
         5px 5px 10px #111;
 }
 
-.home-content .info .about-me p:hover {
-    cursor: default;
-    filter: brightness(100%) drop-shadow(0px 0px 5px rgb(253, 253, 128));
-}
+
 
 .home-content .info .about-me p {
     padding: 1rem;
@@ -182,6 +183,19 @@ hr:after {
     box-shadow: inset 0px 0px 10px 1px #111;
     border-radius: 5px;
     background-color: rgba(17, 17, 17, 0.555);
+}
+
+.home-content .info .about-me p:hover {
+    cursor: default;
+    box-shadow: inset 0px 0px 150px #111,
+    inset 0px 0px 5px 2px #111;
+    background-color: #fbceb1;
+    color: rgb(253, 253, 128);
+}
+
+.home-content .info .about-me p:hover img {
+    cursor: default;
+    filter: drop-shadow(0px 0px 5px #fff);
 }
 
 .home-content .skills {
@@ -222,10 +236,17 @@ hr:after {
 
 .home-content .skills .skills-grid .list li:hover {
     background-color: rgb(253, 253, 128);
-    filter: drop-shadow(0px 0px 25px rgb(253, 253, 128));
+    box-shadow: inset 0px -3px 25px -5px #11101d,
+     0px 0px 15px 3px rgb(250, 250, 162);
     cursor: default;
     transform: scale(1.1);
     font-weight: bolder;
+}
+
+.home-content .skills  .skills-grid .section-skills{
+    box-shadow: inset 0px 0px 10px 0px;
+    border-radius: 25px;
+    background-color: #fbceb1;
 }
 
 .home-content .xp .diplomas {
@@ -233,6 +254,9 @@ hr:after {
     grid-template-columns: 33% 33% 33%;
     gap: 15px;
     padding: 50px;
+    background-color: #fbceb1;
+    box-shadow: inset 0px 0px 15px 3px #111;
+    border-radius: 50px;
 }
 
 .home-content .xp .work {
@@ -240,6 +264,9 @@ hr:after {
     grid-template-columns: 50% 50%;
     gap: 15px;
     padding: 50px;
+    background-color: #fbceb1;
+    box-shadow: inset 0px 0px 15px 3px #111;
+    border-radius: 50px;
 }
 
 .home-content .xp .work div {
@@ -248,17 +275,29 @@ hr:after {
 
 .home-content .xp .diplomas details,
 .home-content .xp .work details {
-    /* border: 3px solid #1f1a5e; */
-    box-shadow: inset 0px 0px 5px 1px #1A1110;
+    box-shadow: inset 0px 0px 5px 1px #1A1110,
+    1px 0px 0px #111,0px 1px 0px #111,
+    2px 1px 0px #111,1px 2px 0px #111,
+    3px 2px 0px #111,2px 3px 0px #111,
+    4px 3px 0px #111,3px 4px 0px #111,
+    5px 4px 0px #111,4px 5px 0px #111,
+    6px 5px 0px #111,5px 6px 0px #111,
+    7px 6px 0px #111,6px 7px 0px #111,
+    8px 7px 0px #111,7px 8px 0px #111,
+    9px 8px 0px #111,8px 9px 0px #111,
+    25px 25px 50px #111;
     font-size: 1.4rem;
     padding-inline: 3px;
     padding-bottom: 3px;
+    margin-inline: 10px;
     background-color: rgb(253, 253, 128);
 }
 
 summary {
     cursor: pointer;
     font-weight: bolder;
+    color: #1f1a5e;
+    padding: 5px;
 }
 
 
@@ -290,7 +329,7 @@ summary {
     background-color: #1f1a5e;
     box-shadow: 0px 0px 0px 2px #11101d,
         inset 0px 0px 0px 2px #11101d;
-    margin-top: 1ch;
+    margin-top: 5px;
     padding: 1ch;
 }
 
@@ -301,6 +340,26 @@ summary {
 
 .home-content .xp .date{
     font-style: italic;
+}
+
+h2{
+   
+    text-shadow: 1px 1px 1px #11101d,
+        1px 2px 1px #fff,
+        1px 3px 1px #fff,
+        1px 4px 1px #fff,
+        1px 3px 1px #11101d,
+        1px 10px 4px #11101d,
+        1px 18px 6px #11101d19,
+        1px 22px 10px #11101d19,
+        1px 25px 35px #11101d19,
+        1px 30px 60px #11101d19;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-content .card-container {
@@ -319,7 +378,7 @@ summary {
     display: grid;
     grid-template-rows: 25% 16.6% 16.6% 16.6% 25%;
     height: 98%;
-    width: 97%;
+    width: 98%;
     background-color: rgb(250, 250, 162);
     border-radius: 5px;
 }
@@ -383,7 +442,9 @@ summary {
 
 .home-content .card-container .card .a {
     background-color: #fff;
-    box-shadow: inset 0px 0px 80px #11101d;
+    box-shadow: inset 0px 0px 80px #11101d,
+    inset 0px 0px 80px #fff,
+    0px -1px 10px 0px #11101d;
     color: #444;
 }
 
@@ -408,9 +469,14 @@ summary {
     color: #e0d3af;
     box-shadow: inset 0px 0px 80px #fff,
     0px -1px 10px 0px #11101d;
-
 }
 
+
+
+.home-content .card-container .card .expend{
+    height: 100%;
+    width: 100%;
+}
 
 .home-content .visible {
     display: flex;
@@ -455,8 +521,7 @@ summary {
     .home-content .info-box {
         flex-direction: column;
     }
-
-
+ 
 }
 
 @media screen and (max-width: 935px) {
@@ -489,6 +554,9 @@ summary {
         grid-template-columns: 100%;
     }
 
+    .home-content .xp .work div {
+        min-height: 0px;
+    }
 
 
 }
@@ -532,7 +600,9 @@ summary {
     .home-content .card-container .card div a i {
         margin-top: 0px;
     }
-
+    .home-content .skills .skills-grid .section-skills h3{
+        font-size: 1.4rem;
+    }
 }
 
 
@@ -562,7 +632,9 @@ summary {
         height: 210px;
     }
 
-
+    .home-content .skills .skills-grid .section-skills h3{
+        font-size: smaller;
+    }
 }
 
 @media screen and (max-width: 300px) {
