@@ -30,7 +30,7 @@ profileBtn.onclick = function() {
     contactsSection.classList.remove("visible");
     xpSection.classList.remove("visible");
 
-    sidebar.classList.remove("active");
+    
 
     profileBtn.classList.add("clicked");
     xpBtn.classList.remove("clicked");
@@ -46,7 +46,7 @@ skillsBtn.onclick = function() {
     contactsSection.classList.remove("visible");
     xpSection.classList.remove("visible");
 
-    sidebar.classList.remove("active");
+    
 
     profileBtn.classList.remove("clicked");
     xpBtn.classList.remove("clicked");
@@ -61,7 +61,7 @@ xpBtn.onclick = function() {
     skillsSection.classList.remove("visible");
     infoSection.classList.remove("visible");
 
-    sidebar.classList.remove("active");
+    
 
     profileBtn.classList.remove("clicked");
     xpBtn.classList.add("clicked");
@@ -76,7 +76,7 @@ contactsBtn.onclick = function() {
     infoSection.classList.remove("visible");
     xpSection.classList.remove("visible");
 
-    sidebar.classList.remove("active");
+    
 
     profileBtn.classList.remove("clicked");
     xpBtn.classList.remove("clicked");
@@ -94,7 +94,7 @@ allBtn.onclick = function() {
     infoSection.classList.add("visible");
     xpSection.classList.add("visible");
 
-    sidebar.classList.remove("active");
+    
 
     profileBtn.classList.add("clicked");
     xpBtn.classList.add("clicked");
